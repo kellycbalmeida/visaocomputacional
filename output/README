@@ -1,6 +1,5 @@
 # Detecção de faces.
-* **Funcionalidades**
-  Outputs:
+* **Outputs**
     Face #1
     Face mask: no
     Face #2
@@ -387,4 +386,24 @@
   }
 ]
 --------------------------------------------------------
+* **Add captions to images**
+* **Detected attribute**
+    
+  a river with buildings and trees
+-----
+* **Json:**
 
+{
+  "apim-request-id": "af935013-c359-49c5-bcb5-4cc65343ca8e",
+  "content-length": "160",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a river with buildings and trees",
+    "confidence": 0.557331383228302
+  },
+  "metadata": {
+    "width": 4032,
+    "height": 2268
+  }
+}
